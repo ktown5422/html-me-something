@@ -1,0 +1,55 @@
+/*Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.minipic img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#footer {
+    background-color: whitesmoke;
+    grid-area: footer;
+    position: sticky;
+}
+
+#footer ul {
+    max-width: 960px;
+    margin: 2em auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Permanent Marker', cursive;
+    align-self: flex-end;
+}
+
+
+#footer ul li {
+    list-style: none;
+}
+
+#footer ul li a {
+    text-decoration: none;
+}
+body {
+    background: #EFF1F7;
+}
+
+h1, h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p, li {
+    font-family: 'Arial', sans-serif;
+}
